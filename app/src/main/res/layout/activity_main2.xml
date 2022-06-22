@@ -1,0 +1,100 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/green"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/text"
+        android:background="@drawable/back_button"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="5"
+        android:contentDescription="@string/arrow" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp"
+        android:autofillHints="name"
+        android:background="@drawable/field1"
+        android:contentDescription="@string/name"
+        android:ems="10"
+        android:inputType="time"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/dated"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-370dp"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="297dp"
+        android:layout_toEndOf="@id/time"
+        android:autofillHints="name"
+        android:background="@drawable/field2"
+        android:contentDescription="@string/password"
+        android:ems="10"
+        android:inputType="date"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/text_view1"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="@color/green_button"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

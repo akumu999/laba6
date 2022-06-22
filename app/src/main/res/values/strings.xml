@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kamaltdinov_laba6</string>
+    <string name="edit_task">Изменить задачу</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="remove_task">Удалить задачу</string>
+    <string name="login">Войти</string>
+    <string name="arrow">Стрелочка</string>
+    <string name="name">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="name_task">Заголовок задачи</string>
+    <string name="time">Время</string>
+    <string name="date">Дата</string>
+    <string name="task_description">Описание задачи</string>
+</resources>
